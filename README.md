@@ -7,9 +7,9 @@ VERSIÓN DJANGO: 3.2.8
 
 1. Crear base de datos en MySQL. Puede ser con phpmyadmin y el nombre creado se debe configurar en settings.py
 2. Se deben tener instalados, con el comando pip install se pueden instalar (ej: pip install PyMySQL) :
-        * PyMySQL: Para conectarse a una base de datos MySQL desde Django
-        * Pillow: Manejo de imagenes 
-        * django-cleanup: Para eliminar las imagenes en la carpeta "imagenes del proyecto" al momento de eliminar un registro
+ * PyMySQL: Para conectarse a una base de datos MySQL desde Django
+ * Pillow: Manejo de imagenes 
+ * django-cleanup: Para eliminar las imagenes en la carpeta "imagenes del proyecto" al momento de eliminar un registro
 3. Validar url (ej: C:\Users\Desktop\Crud Django\sistema>) y Ejecutar comando python manage.py makemigrations
 4. Validar url (ej: C:\Users\Desktop\Crud Django\sistema>) y Ejecutar comando python manage.py migrate
 
